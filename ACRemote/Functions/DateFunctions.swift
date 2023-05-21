@@ -12,6 +12,7 @@ class DateFunctions {
         let dateFormatter = DateFormatter()
         dateFormatter.locale = Locale(identifier: "en_US_POSIX")
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSSSSZZZZZ"
+        dateFormatter.timeZone = TimeZone(identifier: "America/Chicago")
         let date = dateFormatter.date(from: sourceDateString)
         if (date != nil) {
             dateFormatter.dateFormat = destinationFormat
