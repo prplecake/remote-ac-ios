@@ -11,7 +11,27 @@
 		8492E8D42A19EF0C00B94558 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8D32A19EF0C00B94558 /* ContentView.swift */; };
 		8492E8D62A19EF0F00B94558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8492E8D52A19EF0F00B94558 /* Assets.xcassets */; };
 		8492E8D92A19EF0F00B94558 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8492E8D82A19EF0F00B94558 /* Preview Assets.xcassets */; };
+		8492E8E42A19F16A00B94558 /* DhtSensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8E32A19F16A00B94558 /* DhtSensorData.swift */; };
+		8492E8E72A19F1EF00B94558 /* HistoricalDataApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8E62A19F1EF00B94558 /* HistoricalDataApiResponse.swift */; };
+		8492E8E92A19F30500B94558 /* TempMetricsApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8E82A19F30500B94558 /* TempMetricsApiResponse.swift */; };
+		8492E8EB2A19F31100B94558 /* HumidityMetricsApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8EA2A19F31100B94558 /* HumidityMetricsApiResponse.swift */; };
+		8492E8ED2A19F41500B94558 /* RemoteCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8EC2A19F41500B94558 /* RemoteCommands.swift */; };
+		8492E8EF2A19F50F00B94558 /* HistoricalDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8EE2A19F50F00B94558 /* HistoricalDataRow.swift */; };
+		8492E8F32A19FC1000B94558 /* DateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8F22A19FC1000B94558 /* DateFunctions.swift */; };
+		8492E8FF2A19FDCD00B94558 /* ACRemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8FE2A19FDCD00B94558 /* ACRemoteTests.swift */; };
+		8492E9072A19FDEA00B94558 /* DateFunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492E9062A19FDEA00B94558 /* DateFunctionsTests.swift */; };
+		8492E90B2A1A06D700B94558 /* HistoricalDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492E90A2A1A06D700B94558 /* HistoricalDataList.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8492E9002A19FDCD00B94558 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8492E8C62A19EF0C00B94558 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8492E8CD2A19EF0C00B94558;
+			remoteInfo = "AC Remote";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8492E8CE2A19EF0C00B94558 /* AC Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +39,28 @@
 		8492E8D32A19EF0C00B94558 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8492E8D52A19EF0F00B94558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8492E8D82A19EF0F00B94558 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8492E8E32A19F16A00B94558 /* DhtSensorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DhtSensorData.swift; sourceTree = "<group>"; };
+		8492E8E62A19F1EF00B94558 /* HistoricalDataApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalDataApiResponse.swift; sourceTree = "<group>"; };
+		8492E8E82A19F30500B94558 /* TempMetricsApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempMetricsApiResponse.swift; sourceTree = "<group>"; };
+		8492E8EA2A19F31100B94558 /* HumidityMetricsApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumidityMetricsApiResponse.swift; sourceTree = "<group>"; };
+		8492E8EC2A19F41500B94558 /* RemoteCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCommands.swift; sourceTree = "<group>"; };
+		8492E8EE2A19F50F00B94558 /* HistoricalDataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalDataRow.swift; sourceTree = "<group>"; };
+		8492E8F22A19FC1000B94558 /* DateFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFunctions.swift; sourceTree = "<group>"; };
+		8492E8FC2A19FDCD00B94558 /* ACRemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACRemoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8492E8FE2A19FDCD00B94558 /* ACRemoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACRemoteTests.swift; sourceTree = "<group>"; };
+		8492E9062A19FDEA00B94558 /* DateFunctionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFunctionsTests.swift; sourceTree = "<group>"; };
+		8492E90A2A1A06D700B94558 /* HistoricalDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalDataList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8492E8CB2A19EF0C00B94558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8492E8F92A19FDCD00B94558 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,7 +73,8 @@
 		8492E8C52A19EF0C00B94558 = {
 			isa = PBXGroup;
 			children = (
-				8492E8D02A19EF0C00B94558 /* AC Remote */,
+				8492E8D02A19EF0C00B94558 /* ACRemote */,
+				8492E8FD2A19FDCD00B94558 /* ACRemoteTests */,
 				8492E8CF2A19EF0C00B94558 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,19 +83,23 @@
 			isa = PBXGroup;
 			children = (
 				8492E8CE2A19EF0C00B94558 /* AC Remote.app */,
+				8492E8FC2A19FDCD00B94558 /* ACRemoteTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8492E8D02A19EF0C00B94558 /* AC Remote */ = {
+		8492E8D02A19EF0C00B94558 /* ACRemote */ = {
 			isa = PBXGroup;
 			children = (
+				8492E8F12A19FBFE00B94558 /* Functions */,
 				8492E8D12A19EF0C00B94558 /* AC_RemoteApp.swift */,
-				8492E8D32A19EF0C00B94558 /* ContentView.swift */,
 				8492E8D52A19EF0F00B94558 /* Assets.xcassets */,
+				8492E8E02A19F0C200B94558 /* Models */,
 				8492E8D72A19EF0F00B94558 /* Preview Content */,
+				8492E8E12A19F0CA00B94558 /* Resources */,
+				8492E8DF2A19F0BC00B94558 /* Views */,
 			);
-			path = "AC Remote";
+			path = ACRemote;
 			sourceTree = "<group>";
 		};
 		8492E8D72A19EF0F00B94558 /* Preview Content */ = {
@@ -65,6 +108,76 @@
 				8492E8D82A19EF0F00B94558 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8492E8DF2A19F0BC00B94558 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8492E8D32A19EF0C00B94558 /* ContentView.swift */,
+				8492E8F02A19F51800B94558 /* HistoricalData */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8492E8E02A19F0C200B94558 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8492E8E52A19F1CF00B94558 /* Api */,
+				8492E8E32A19F16A00B94558 /* DhtSensorData.swift */,
+				8492E8EC2A19F41500B94558 /* RemoteCommands.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8492E8E12A19F0CA00B94558 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8492E8E52A19F1CF00B94558 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				8492E8E62A19F1EF00B94558 /* HistoricalDataApiResponse.swift */,
+				8492E8E82A19F30500B94558 /* TempMetricsApiResponse.swift */,
+				8492E8EA2A19F31100B94558 /* HumidityMetricsApiResponse.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		8492E8F02A19F51800B94558 /* HistoricalData */ = {
+			isa = PBXGroup;
+			children = (
+				8492E8EE2A19F50F00B94558 /* HistoricalDataRow.swift */,
+				8492E90A2A1A06D700B94558 /* HistoricalDataList.swift */,
+			);
+			path = HistoricalData;
+			sourceTree = "<group>";
+		};
+		8492E8F12A19FBFE00B94558 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				8492E8F22A19FC1000B94558 /* DateFunctions.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		8492E8FD2A19FDCD00B94558 /* ACRemoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				8492E9052A19FDDA00B94558 /* FunctionsTests */,
+				8492E8FE2A19FDCD00B94558 /* ACRemoteTests.swift */,
+			);
+			path = ACRemoteTests;
+			sourceTree = "<group>";
+		};
+		8492E9052A19FDDA00B94558 /* FunctionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8492E9062A19FDEA00B94558 /* DateFunctionsTests.swift */,
+			);
+			path = FunctionsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +200,24 @@
 			productReference = 8492E8CE2A19EF0C00B94558 /* AC Remote.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8492E8FB2A19FDCD00B94558 /* ACRemoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8492E9022A19FDCD00B94558 /* Build configuration list for PBXNativeTarget "ACRemoteTests" */;
+			buildPhases = (
+				8492E8F82A19FDCD00B94558 /* Sources */,
+				8492E8F92A19FDCD00B94558 /* Frameworks */,
+				8492E8FA2A19FDCD00B94558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8492E9012A19FDCD00B94558 /* PBXTargetDependency */,
+			);
+			name = ACRemoteTests;
+			productName = ACRemoteTests;
+			productReference = 8492E8FC2A19FDCD00B94558 /* ACRemoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +230,10 @@
 				TargetAttributes = {
 					8492E8CD2A19EF0C00B94558 = {
 						CreatedOnToolsVersion = 14.3;
+					};
+					8492E8FB2A19FDCD00B94558 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8492E8CD2A19EF0C00B94558;
 					};
 				};
 			};
@@ -116,6 +251,7 @@
 			projectRoot = "";
 			targets = (
 				8492E8CD2A19EF0C00B94558 /* AC Remote */,
+				8492E8FB2A19FDCD00B94558 /* ACRemoteTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +266,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8492E8FA2A19FDCD00B94558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +280,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8492E8EB2A19F31100B94558 /* HumidityMetricsApiResponse.swift in Sources */,
+				8492E8E42A19F16A00B94558 /* DhtSensorData.swift in Sources */,
 				8492E8D42A19EF0C00B94558 /* ContentView.swift in Sources */,
+				8492E8ED2A19F41500B94558 /* RemoteCommands.swift in Sources */,
 				8492E8D22A19EF0C00B94558 /* AC_RemoteApp.swift in Sources */,
+				8492E8E72A19F1EF00B94558 /* HistoricalDataApiResponse.swift in Sources */,
+				8492E8EF2A19F50F00B94558 /* HistoricalDataRow.swift in Sources */,
+				8492E90B2A1A06D700B94558 /* HistoricalDataList.swift in Sources */,
+				8492E8F32A19FC1000B94558 /* DateFunctions.swift in Sources */,
+				8492E8E92A19F30500B94558 /* TempMetricsApiResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8492E8F82A19FDCD00B94558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8492E8FF2A19FDCD00B94558 /* ACRemoteTests.swift in Sources */,
+				8492E9072A19FDEA00B94558 /* DateFunctionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8492E9012A19FDCD00B94558 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8492E8CD2A19EF0C00B94558 /* AC Remote */;
+			targetProxy = 8492E9002A19FDCD00B94558 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8492E8DA2A19EF0F00B94558 /* Debug */ = {
@@ -266,7 +434,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AC Remote/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ACRemote/Preview Content\"";
 				DEVELOPMENT_TEAM = TPK9GAG436;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +463,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AC Remote/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ACRemote/Preview Content\"";
 				DEVELOPMENT_TEAM = TPK9GAG436;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -317,6 +485,42 @@
 			};
 			name = Release;
 		};
+		8492E9032A19FDCD00B94558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPK9GAG436;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jorgensen.ACRemoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AC Remote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AC Remote";
+			};
+			name = Debug;
+		};
+		8492E9042A19FDCD00B94558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPK9GAG436;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jorgensen.ACRemoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AC Remote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AC Remote";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +538,15 @@
 			buildConfigurations = (
 				8492E8DD2A19EF0F00B94558 /* Debug */,
 				8492E8DE2A19EF0F00B94558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8492E9022A19FDCD00B94558 /* Build configuration list for PBXNativeTarget "ACRemoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8492E9032A19FDCD00B94558 /* Debug */,
+				8492E9042A19FDCD00B94558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
